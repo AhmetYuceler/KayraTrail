@@ -1,0 +1,50 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.gradient-logo {
+  background: linear-gradient(45deg, #4b34e4, #ee346b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-contact-me {
+  position: relative;
+  z-index: 2; /* Düğmenin z-index değeri */
+  top: -10px;
+  left: -10px;
+}
+
+.features-contact-us {
+  position: relative;
+  z-index: 2; /* Düğmenin z-index değeri */
+  top: -7px;
+  left: -7px;
+}
+
+.box-shadow-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, #4b34e4, #ee346b);
+  z-index: 1; /* Kutunun z-index değeri (düğmenin altında kalması için) */
+}
+
+/* ... (diğer stiller) */
+
+/* Features.css */
+
+.navbar-svg {
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 50px !important;
+  border-image: linear-gradient(45deg, #4b34e4, #ee346b);
+  border-image-slice: 1;
+}
